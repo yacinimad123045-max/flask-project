@@ -162,24 +162,27 @@ HTML_TEMPLATE = """
             <!-- Plans will be inserted here -->
         </div>
 
-        <!-- YouTube Tutorial -->
-        <div class="max-w-5xl mx-auto fade-in">
-            <h2 id="tutorial-title" class="text-2xl sm:text-4xl font-bold text-white text-center mb-4 sm:mb-8">
-                📺 شاهد فيديو الشرح
-            </h2>
-            <div class="bg-white/10 backdrop-blur-lg rounded-2xl sm:rounded-3xl p-3 sm:p-6 border-2 border-purple-400 shadow-2xl">
-                <div class="relative pb-[56.25%] h-0 overflow-hidden rounded-xl sm:rounded-2xl bg-black">
-                    <iframe
-                        class="absolute top-0 left-0 w-full h-full"
-                        src="https://www.youtube.com/watch?v=bv2ew1nLDcA"
-                        title="شرح استخدام البوت"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
+<!-- YouTube Tutorial -->
+<div class="max-w-5xl mx-auto fade-in">
+    <h2 id="tutorial-title" class="text-2xl sm:text-4xl font-bold text-white text-center mb-4 sm:mb-8">
+        📺 شاهد فيديو الشرح
+    </h2>
+
+    <div class="bg-white/10 backdrop-blur-lg rounded-2xl sm:rounded-3xl p-3 sm:p-6 border-2 border-purple-400 shadow-2xl">
+        <div class="relative pb-[56.25%] h-0 overflow-hidden rounded-xl sm:rounded-2xl bg-black">
+            <iframe
+                class="absolute top-0 left-0 w-full h-full"
+                src="https://www.youtube.com/embed/bv2ew1nLDcA"
+                title="شرح استخدام البوت"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
         </div>
+    </div>
+</div>
+
+
 
         <!-- Footer -->
         <div class="text-center mt-8 sm:mt-12 text-purple-200 px-4">

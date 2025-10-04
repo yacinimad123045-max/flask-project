@@ -171,7 +171,7 @@ HTML_TEMPLATE = """
                 <div class="relative pb-[56.25%] h-0 overflow-hidden rounded-xl sm:rounded-2xl bg-black">
                     <iframe
                         class="absolute top-0 left-0 w-full h-full"
-                        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                        src="https://www.youtube.com/watch?v=bv2ew1nLDcA"
                         title="شرح استخدام البوت"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
